@@ -10,7 +10,7 @@ var largeGroupPositions = function(S) {
             index[1] = i;
             if (index[1] - index[0] >= 2) {
                 res.push(index);
-            }
+            }   
             index = [i+1, i+1];
         }
     }
