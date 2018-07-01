@@ -1,4 +1,5 @@
 test.cpp
 a.out
 example.js
-
+.DS_Store
+.gitignore
