@@ -1,4 +1,7 @@
 /**
+ * 单调队列
+ * x1 < x2 并且 sum[x2] <= sum[x1]时
+ * 如果存在 sum[y] - sum[x1] >= k, 那么必定存在sum[y] - sum[x2] >= k
  * @param {number[]} A
  * @param {number} K
  * @return {number}
