@@ -3,3 +3,4 @@ a.out
 example.js
 .DS_Store
 .gitignore
+tmp.cpp
