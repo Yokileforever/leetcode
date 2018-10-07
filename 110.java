@@ -6,6 +6,7 @@
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
+ * Boolean 好像不能做要引用传递, 像是局部的变量
  */
 class Solution {
     private boolean f = true;
@@ -26,3 +27,4 @@ class Solution {
         return Math.max(x, y) + 1;
     }
 }
+
