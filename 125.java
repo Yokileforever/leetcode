@@ -7,3 +7,4 @@ class Solution {
         return sb.toString().equals(sb.reverse().toString());
     }
 }
+
